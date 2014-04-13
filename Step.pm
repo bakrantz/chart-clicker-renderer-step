@@ -13,7 +13,7 @@ use Geometry::Primitive::Circle;
 
 #number of defined points we must have around another point
 #to render a line instead of a scatter
-#
+
 use constant MIN_DEFINED_SURROUNDING_POINTS => 5;  #B. Krantz: in this plot mode this constant may not be needed
 
 
