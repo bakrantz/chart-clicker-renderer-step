@@ -257,7 +257,7 @@ __END__
 
 =head1 NAME
 
-Chart::Clicker::Renderer::Line - Line renderer
+Chart::Clicker::Renderer::Step - Vertical and Horizontal-step renderer
 
 =head1 VERSION
 
@@ -278,11 +278,13 @@ version 2.88
 =head1 DESCRIPTION
 
 Chart::Clicker::Renderer::Step renders a dataset as a special vertical- or horizontal-step line graph 
-often used in statistical plots. This module was borrowed from L<Chart::Clicker::Renderer::Line> and 
-may use its attributes, of course, since they are preserved here. One additional attribute, 'type', 
+often used in statistical plots. This module's guts were borrowed from L<Chart::Clicker::Renderer::Line> and 
+will use its attributes, of course, since they are preserved here. One additional attribute, 'type', 
 is used to specify whether the step graph is 'vertical' or 'horizontal'. The default is 'vertical'.
 As the step-style graph appears to create new points in the rendering, the 'shape' attribute can be set 
 to show the actual data points on the line graph.
+
+=for HTML <p><img src="https://github.com/bakrantz/chart-clicker-renderer-step/blob/master/examples/vertical-step-plot-example.png?raw=true" width="500" height="250" alt="Vertical Step Chart"/></p>
 
 =head1 ATTRIBUTES
 
